@@ -27,11 +27,11 @@ def get_filters():
 
         else:
             break
-
+ # Changed input sentence to be consistent with the above
     # TO DO: get user input for month (all, january, february, ... , june)
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june', ]
     while True:
-        month = input("\n Please choose a month from - {}".format(months)).lower()
+        month = input("\n Please select a month from - {}".format(months)).lower()
         if month not in months:
             print("\n Incorrect Selection")
 
