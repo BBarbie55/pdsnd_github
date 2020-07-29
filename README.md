@@ -40,7 +40,7 @@ def get_filters():
             break
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    # Upated word in input to make it consistent with the above  
+  # Upated word in input to make it consistent with the above  
     days = ['all', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday',  ]
     while True:
         day = input('\n Please select a day of the week from - {}'.format(days)).lower()
